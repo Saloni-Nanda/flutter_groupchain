@@ -13,7 +13,7 @@ class AppRoutes {
    static const language = '/language';
    static const home = '/home';
    static const search = '/search';
-   static const bookings = '/bookings';
+   static const booking = '/booking';
    static const profile = '/profile';
    static const searchedHotels = '/searched_hotels';
    static const filter = '/filter';
@@ -24,7 +24,7 @@ class AppRoutes {
      GetPage(name: language, page: () => const LanguagePage()),
      GetPage(name: home, page: () => const HomePage()),
      GetPage(name: search, page: () => const SearchPage()),
-     GetPage(name: bookings, page: () => const BookingPage()),
+     GetPage(name: booking, page: () => const BookingPage()),
      GetPage(name: profile, page: () => const Profile()),
    ];
 }
